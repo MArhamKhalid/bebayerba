@@ -3,6 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-Aeonik: 'Aeonik-Pro-Light';
+  --font-Argot: 'Argot-Bold';
+  --font-ArgotNarrow: 'Argot-Narrow-Bold';
+  --green: radial-gradient(50% 50% at 50% 50%, #00883e 0%, #002210 100%);
+
 }
 
 @theme inline {
@@ -10,12 +15,27 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+}
+@font-face {
+  font-family: 'Aeonik-Pro-Light';
+  src: url('/fonts/Aeonik-Pro-Light.woff') format('truetype');
+}
+@font-face {
+  font-family: 'Argot-Bold';
+  src: url('/fonts/Argot-Bold.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Argot-Narrow-Bold';
+  src: url('/fonts/Argot-Narrow-Bold.otf') format('truetype');
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --green: radial-gradient(50% 50% at 50% 50%, #00883e 0%, #002210 100%);
+
   }
 }
 
@@ -23,4 +43,12 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  background: var(--green);
+}
+.hero{
+  width: 100%;
+  /* height: 110vh; */
+  background: var(--green);
 }
