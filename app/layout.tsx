@@ -4,6 +4,9 @@ import "./globals.css";
 import Banner from '@/Components/Banner';
 import Header from '@/Components/Header';
 import Hero from "@/Components/Hero";
+import Quiz from "@/Components/Quiz";
+import Carts from "@/Components/Carts";
+import Enchanced from "@/Components/Enchanced";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +37,9 @@ export default function RootLayout({
         <Banner/>
         <Header/>
         <Hero/>
+        <Quiz/>
+        <Carts/>
+        <Enchanced/>
         {children}</body>
     </html>
   );

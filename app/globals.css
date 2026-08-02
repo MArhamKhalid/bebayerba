@@ -3,9 +3,6 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-Aeonik: 'Aeonik-Pro-Light';
-  --font-Argot: 'Argot-Bold';
-  --font-ArgotNarrow: 'Argot-Narrow-Bold';
   --green: radial-gradient(50% 50% at 50% 50%, #00883e 0%, #002210 100%);
 
 }
@@ -15,6 +12,9 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-Aeonik: 'Aeonik-Pro-Light';
+  --font-Argot: 'Argot-Bold';
+  --font-ArgotNarrow: 'Argot-Narrow-Bold';
   
 }
 @font-face {
@@ -35,7 +35,7 @@
     --background: #0a0a0a;
     --foreground: #ededed;
     --green: radial-gradient(50% 50% at 50% 50%, #00883e 0%, #002210 100%);
-
+    
   }
 }
 
