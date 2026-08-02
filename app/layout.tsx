@@ -7,6 +7,7 @@ import Hero from "@/Components/Hero";
 import Quiz from "@/Components/Quiz";
 import Carts from "@/Components/Carts";
 import Enchanced from "@/Components/Enchanced";
+import Reviews from "@/Components/Reviews";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,6 +41,7 @@ export default function RootLayout({
         <Quiz/>
         <Carts/>
         <Enchanced/>
+        <Reviews/>
         {children}</body>
     </html>
   );

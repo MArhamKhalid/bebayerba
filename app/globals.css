@@ -52,3 +52,19 @@ header{
   /* height: 110vh; */
   background: var(--green);
 }
+.marquee-container {
+  /* width: 100%; */
+  overflow: hidden;
+  animation: slider 20s linear infinite;
+}
+@keyframes slider {
+  
+0% {
+    transform: translate(0%);
+}
+
+100% {
+    transform: translate(-30%);
+}
+  
+}
