@@ -1,13 +1,18 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Banner from '@/Components/Banner';
 import Header from '@/Components/Header';
 import Hero from "@/Components/Hero";
 import Quiz from "@/Components/Quiz";
 import Carts from "@/Components/Carts";
 import Enchanced from "@/Components/Enchanced";
 import Reviews from "@/Components/Reviews";
+import Community from "@/Components/Community";
+import Member from "@/Components/Member";
+import Saler from '@/Components/Saler';
+import Info from "@/Components/Info";
+import Location from "@/Components/Location";
+import Social from "@/Components/Social"; 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,13 +40,18 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Banner/>
         <Header/>
         <Hero/>
         <Quiz/>
         <Carts/>
         <Enchanced/>
         <Reviews/>
+        <Community/>
+        <Member/>
+        <Saler/>
+        <Info/>
+        <Location/>
+        <Social/>
         {children}</body>
     </html>
   );
