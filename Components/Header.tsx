@@ -6,7 +6,7 @@ export default function Home() {
     <header className='w-full fixed z-50'>
         
         <div className='w-full bg-[#1D4818]'>
-            <div className='w-full py bg-yellow-400 text-black flex justify-center items-center rounded-b-3xl text-2xl'>
+            <div className='w-full py bg-yellow-400 text-black flex justify-center items-center rounded-b-3xl text-2xl font-medium'>
                 <h2>FREE SHIPPING ON ALL ORDERS OVER $120</h2>
             </div>
         </div>

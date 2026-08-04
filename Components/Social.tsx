@@ -68,8 +68,10 @@ const Social = () => {
                 <div className='w-full flex gap-3'>
                     {Simages.map((Simages) => (
 
-                    <div className='w-81 h-108' key={Simages.imagePath}>
-                        <img src={Simages.imagePath} alt="" className='object-cover w-full h-full rounded-3xl'/>
+                    <div className='w-81 h-108 relative group ' key={Simages.imagePath} >
+                        <img src="/image/whiteinstaImg.png" alt="insta" className=' absolute left-[45%] top-[45%] w-10 hidden group-hover:flex' />
+
+                        <img src={Simages.imagePath} alt="" className='object-cover w-full h-full rounded-3xl bg-amber-50 z-10 '/>
                     </div> 
                     )
                 )}

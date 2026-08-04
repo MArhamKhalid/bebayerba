@@ -69,4 +69,7 @@ header{
       transform: translate(-40%);
   }
 }
-
+.logo-color{
+  filter:
+      invert(43%) sepia(99%) saturate(2274%) hue-rotate(2deg) brightness(103%) contrast(105%)
+}
