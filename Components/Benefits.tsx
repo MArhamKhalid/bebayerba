@@ -1,10 +1,11 @@
 import React from 'react'
 
+
 const Benefits = () => {
   return (
     <section className='w-full h-dvh relative flex justify-center px-20 pt-46 overflow-hidden'>
         <div className='absolute left-0 top-0 '>
-            <img src="/image/fitness-1-new.png" alt="" className='object-cover'/>
+            <img src="/image/fitness-3-new.png" alt="" className='object-cover'/>
         </div>
           <div className='w-full z-10 flex justify-start flex-col gap-y-40'>
             <div className='text-[88px] w-full uppercase flex justify-center text-center text-[#0A3B21] font-bold font-Argot leading-18 '>

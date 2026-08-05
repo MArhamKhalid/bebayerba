@@ -55,8 +55,8 @@ header{
   background: var(--green);
 }
 .marquee-container {
-  /* width: 100%; */
-  overflow: hidden;
+  width: 100%;
+  /* overflow: hidden; */
   animation: slider 20s linear infinite;
 }
 @keyframes slider {
@@ -66,7 +66,7 @@ header{
   }
   
   100% {
-      transform: translate(-40%);
+      transform: translate(-80%);
   }
 }
 .logo-color{

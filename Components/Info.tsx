@@ -12,22 +12,22 @@ const Info = () => {
             <div className='text-black text-center font-Aeonik text-[22px] font-bold capitalize'>
                 <p>Yerba Mate comes from the leaves of the Ilex paraguariensis plant, naturally<br/>cultivated across the lush regions of South America. It has been consumed for<br/>hundreds of years not just for its clean, sustained energy, but for its remarkable<br/>nutritional profile.</p>
             </div>
-            <div className='w-full flex justify-center gap-x-4'>
-                <div className='w-81.5 h-165 rounded-xl overflow-hidden relative uppercase '>
+            <div className='yerba-mate-cards flex flex-col md:flex-row w-full lg:max-w-[1700px] h-[800px] md:h-[700px] gap-4 mx-auto p-3 md:p-4 lg:p-5 font-sans box-border'>
+                <div className='relative h-full rounded-[10px] overflow-hidden cursor-pointer transition-all duration-500 ease-in-out group flex-[1] active'>
                     <img src="/image/Brazil.png" alt="Brazil" className='w-full h-full absolute top-0 left-0 object-cover  z-0' />
                     <div className='absolute flex flex-col justify-start left-4 bottom-10 text-white z-15'>
                         <h1 className='font-Argot text-[44px]'>Barzil</h1>
 
                     </div>
                 </div>
-                <div className='w-224 h-165 rounded-xl overflow-hidden relative uppercase'>
-                    <img src="/image/portugal.png" alt="Portugal" className='w-full h-full absolute top-0 left-0 bg-cover z-0' />
-                    <div className='absolute flex flex-col justify-start left-4 bottom-10 text-white z-15'>
+                <div className='relative h-full rounded-[10px] overflow-hidden cursor-pointer transition-all duration-500 ease-in-out group flex-[3] active'>
+                    <img src="/image/portugal.png" alt="Portugal" className='absolute top-0 left-0 w-full h-full object-cover z-10' />
+                    <div className='absolute flex flex-col justify-start left-4 bottom-10 text-white z-0'>
                         <h1 className='font-Argot text-[44px]'>Portugal</h1>
 
                     </div>
                 </div>
-                <div className='w-81.5 h-165 rounded-xl overflow-hidden relative uppercase'>
+                <div className='relative h-full rounded-[10px] overflow-hidden cursor-pointer transition-all duration-500 ease-in-out group flex-[1] active'>
                     <img src="/image/Paraguay.png" alt="Paraguay" className='w-full h-full absolute top-0 left-0 object-cover z-10' />
                     <div className='absolute flex flex-col justify-start left-4 bottom-10 text-white z-15'>
                         <h1 className='font-Argot text-[44px]'>Paraguay</h1>
